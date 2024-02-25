@@ -47,4 +47,6 @@ fetch('./data.json')
   .then((data) => data.map((stat) => new Stat(stat)))
   .then((stats) => {
     document.querySelector('.summary__stats').append(...stats.map((stat) => stat.element));
+    document.querySelector('.result__score').textContent =
+      Math.floor(stats.reduce((sum, stat) => sum + stat.score, 0) / 4);
   });
