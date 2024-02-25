@@ -3,8 +3,6 @@
   padding: 1em;
   display: flex;
   justify-content: space-between;
-
-  background: var(--bright-red);
 }
 
 .stat__title {
@@ -13,11 +11,10 @@
   gap: 0.75em;
   align-items: center;
   font-weight: 500;
-  color: var(--red);
 }
 
 .stat__title::before {
-  content: url('../images/icon-reaction.svg');
+  content: var(--icon);
 }
 
 .stat__numbers {
