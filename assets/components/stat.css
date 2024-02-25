@@ -1,0 +1,36 @@
+.stat {
+  border-radius: 0.75em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+
+  background: var(--bright-red);
+}
+
+.stat__title {
+  margin: 0;
+  display: flex;
+  gap: 0.75em;
+  align-items: center;
+  font-weight: 500;
+  color: var(--red);
+}
+
+.stat__title::before {
+  content: url('../images/icon-reaction.svg');
+}
+
+.stat__numbers {
+  font-weight: 700;
+  color: var(--dark-navy);
+}
+
+.stat__maximum {
+  opacity: 0.5;
+}
+
+@media (min-width: 50em) {
+  .stat {
+    font-size: 1.125em;
+  }
+}

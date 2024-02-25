@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./assets/components/result.css');
+@import url('./assets/components/stat.css');
+@import url('./assets/components/summary.css');
+
+:root {
+  --red: hsl(0, 100%, 67%);
+  --yellow: hsl(39, 100%, 56%);
+  --green: hsl(166, 100%, 37%);
+  --blue: hsl(234, 85%, 45%);
+
+  --bright-red: hsla(0, 100%, 67%, 0.1);
+  --bright-yellow: hsla(39, 100%, 56%, 0.1);
+  --bright-green: hsla(166, 100%, 37%, 0.1);
+  --bright-blue: hsla(234, 85%, 45%, 0.1);
+
+  --dark-navy: hsl(224, 30%, 27%);
+
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {}
+
+.main {}
