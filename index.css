@@ -15,12 +15,17 @@
   --bright-blue: hsla(234, 85%, 45%, 0.1);
 
   --dark-navy: hsl(224, 30%, 27%);
+  --light-blue: hsl(241, 100%, 89%);
   --white: hsl(0, 0%, 100%);
   --main-gradient: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+  --reverse-gradient: linear-gradient(180deg, #4D21C9 0%, rgba(36, 33, 202, 0) 100%, rgba(37, 33, 201, 0.00) 100%);
 
   font-family: 'Hanken Grotesk', sans-serif;
 }
 
-body {}
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .main {}
