@@ -1,0 +1,35 @@
+.summary {
+  padding: 1.5em 1.875em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.summary__title {
+  margin: 0;
+  color: var(--dark-navy);
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.summary__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.summary__button {
+  width: 100%;
+  background-color: var(--dark-navy);
+  border-radius: 8em;
+  border: none;
+  padding: 1em;
+  color: var(--white);
+  font-size: 1.125em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.summary__button:hover {
+  background: var(--main-gradient);
+}
