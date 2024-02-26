@@ -1,7 +1,7 @@
 .result {
   background: var(--main-gradient);
   border-radius: 0 0 2em 2em;
-  padding: 1.5em 3.625em 1.5em;
+  padding: 1.5em 3.625em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,4 +53,40 @@
   text-align: center;
   color: var(--light-blue);
   font-weight: 500;
+}
+
+@media (min-width: 50em) {
+  .result {
+    border-radius: 0;
+    padding: 2.375em 3.375em;
+    gap: 2em;
+  }
+
+  .result__circle {
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 6.25em;
+    padding-top: 3.5em;
+  }
+
+  .result__title {
+    font-size: 1.5em;
+  }
+
+  .result__score {
+    font-size: 4.5em;
+    line-height: 1;
+  }
+
+  .result__maximum {
+    font-size: 1.125em;
+  }
+
+  .result__verdict {
+    font-size: 2em;
+  }
+
+  .result__comparison {
+    font-size: 1.125em;
+  }
 }

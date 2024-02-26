@@ -16,6 +16,7 @@
 
   --dark-navy: hsl(224, 30%, 27%);
   --light-blue: hsl(241, 100%, 89%);
+  --very-light-blue: hsl(221, 100%, 96%);
   --white: hsl(0, 0%, 100%);
   --main-gradient: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
   --reverse-gradient: linear-gradient(180deg, #4D21C9 0%, rgba(36, 33, 202, 0) 100%, rgba(37, 33, 201, 0.00) 100%);
@@ -26,6 +27,29 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--very-light-blue);
 }
 
-.main {}
+.main {
+  background-color: var(--white);
+}
+
+@media (min-width: 50em) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    width: 46em;
+    overflow: hidden;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+}

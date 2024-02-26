@@ -33,3 +33,18 @@
 .summary__button:hover {
   background: var(--main-gradient);
 }
+
+@media (min-width: 50em) {
+  .summary {
+    padding: 2.5em;
+    gap: 1.75em;
+  }
+
+  .summary__title {
+    font-size: 1.5em;
+  }
+  
+  .summary__button {
+    margin-top: 0.75em;
+  }
+}
